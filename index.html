@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pure Social - Connect Authentically</title>
+    <meta
+      name="description"
+      content="Join Pure Social - A social network focused on authentic connections, meaningful conversations, and genuine community building."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Pure Social</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#features" class="nav__link">Features</a>
+            </li>
+            <li class="nav__item">
+              <a href="#gallery" class="nav__link">Gallery</a>
+            </li>
+            <li class="nav__item">
+              <a href="#reviews" class="nav__link">Reviews</a>
+            </li>
+            <li class="nav__item">
+              <a href="#cta" class="nav__link">Join Now</a>
+            </li>
+          </ul>
+          <button class="nav__close" id="nav-close" aria-label="Close menu">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+
+        <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero__background">
+        <img
+          src="/placeholder.svg?height=1080&width=1920"
+          alt=""
+          class="hero__bg-image"
+        />
+        <div class="hero__overlay"></div>
+      </div>
+
+      <div class="container hero__container">
+        <div class="hero__content animate-on-scroll">
+          <h1 class="hero__title">
+            Connect with <span class="text-gradient">Real People</span>
+          </h1>
+          <p class="hero__description">
+            Experience social networking the way it should be - authentic,
+            meaningful, and focused on genuine human connections.
+          </p>
+          <div class="hero__buttons">
+            <button class="btn btn--primary">Get Started Free</button>
+            <button class="btn btn--secondary">Watch Demo</button>
+          </div>
+          <div class="hero__stats">
+            <div class="stat-item">
+              <span class="stat-number" data-target="50000">0</span>
+              <span class="stat-label">Active Users</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="1000000">0</span>
+              <span class="stat-label">Connections Made</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="98">0</span>
+              <span class="stat-label">% Satisfaction</span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="hero__image animate-on-scroll"
+          style="animation-delay: 0.2s"
+        >
+          <img
+            src="./images/social-app-interface.jpg"
+            alt="Pure Social App Interface"
+            class="hero__phone"
+          />
+          <div class="hero__float-card hero__float-card--1">
+            <img
+              src="./images/user.svg"
+              alt="User"
+              class="float-card__avatar"
+            />
+            <div class="float-card__content">
+              <p class="float-card__text">Just made a new friend!</p>
+            </div>
+          </div>
+          <div class="hero__float-card hero__float-card--2">
+            <img
+              src="./images/user.svg"
+              alt="User"
+              class="float-card__avatar"
+            />
+            <div class="float-card__content">
+              <p class="float-card__text">Love this community ❤️</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__scroll-indicator">
+        <span>Scroll to explore</span>
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-label">Why Choose Pure Social</span>
+          <h2 class="section-title">Features That Matter</h2>
+          <p class="section-description">
+            Everything you need for authentic social connections, without the
+            noise.
+          </p>
+        </div>
+
+        <div class="features__grid">
+          <article class="feature-card animate-on-scroll">
+            <div class="feature-card__content">
+              <div class="feature-card__inner">
+                <div class="feature-card__icon">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="feature-card__title">Privacy First</h3>
+                <p class="feature-card__description">
+                  Your data belongs to you. We never sell your information or
+                  track you across the web.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="feature-card animate-on-scroll">
+            <div class="feature-card__content">
+              <div class="feature-card__inner">
+                <div class="feature-card__icon">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="4.93" y1="4.93" x2="19.07" y2="19.07"></line>
+                  </svg>
+                </div>
+                <h3 class="feature-card__title">Ad-Free Experience</h3>
+                <p class="feature-card__description">
+                  No ads, no distractions. Just pure, uninterrupted connections
+                  with people who matter.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="feature-card animate-on-scroll">
+            <div class="feature-card__content">
+              <div class="feature-card__inner">
+                <div class="feature-card__icon">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                </div>
+                <h3 class="feature-card__title">Authentic Connections</h3>
+                <p class="feature-card__description">
+                  Connect with real people who share your interests and values,
+                  not bots or fake accounts.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="feature-card animate-on-scroll">
+            <div class="feature-card__content">
+              <div class="feature-card__inner">
+                <div class="feature-card__icon">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path
+                      d="M12 1v6m0 6v6m8.66-15.66l-4.24 4.24m-4.24 4.24l-4.24 4.24M23 12h-6m-6 0H1m20.66 8.66l-4.24-4.24m-4.24-4.24l-4.24-4.24"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="feature-card__title">Smart Algorithm</h3>
+                <p class="feature-card__description">
+                  Our AI learns what matters to you, showing content that
+                  enriches your life, not just engagement bait.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="feature-card animate-on-scroll">
+            <div class="feature-card__content">
+              <div class="feature-card__inner">
+                <div class="feature-card__icon">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"
+                    ></path>
+                    <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                    <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                  </svg>
+                </div>
+                <h3 class="feature-card__title">Interest Groups</h3>
+                <p class="feature-card__description">
+                  Join communities built around your passions, from photography
+                  to philosophy.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="feature-card animate-on-scroll">
+            <div class="feature-card__content">
+              <div class="feature-card__inner">
+                <div class="feature-card__icon">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="feature-card__title">Wellbeing Focus</h3>
+                <p class="feature-card__description">
+                  Built-in tools to help you maintain a healthy relationship
+                  with social media and protect your mental health.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-label">See It In Action</span>
+          <h2 class="section-title">Experience Pure Social</h2>
+          <p class="section-description">
+            A glimpse into the beautiful, intuitive interface designed for
+            meaningful connections.
+          </p>
+        </div>
+
+        <div class="gallery__grid">
+          <div class="gallery__item gallery__item--large animate-on-scroll">
+            <img src="./images/feed-design.jpg" alt="Main Feed Interface" />
+            <div class="gallery__overlay">
+              <h3>Beautiful Feed Design</h3>
+              <p>Clean, distraction-free interface</p>
+            </div>
+          </div>
+          <div class="gallery__item animate-on-scroll">
+            <img src="./images/personal-profiles.jpg" alt="Profile Page" />
+            <div class="gallery__overlay">
+              <h3>Personal Profiles</h3>
+              <p>Express yourself authentically</p>
+            </div>
+          </div>
+          <div class="gallery__item animate-on-scroll">
+            <img src="./images/seamless-messaging.jpg" alt="Messaging" />
+            <div class="gallery__overlay">
+              <h3>Seamless Messaging</h3>
+              <p>Connect in real-time</p>
+            </div>
+          </div>
+          <div class="gallery__item animate-on-scroll">
+            <img src="./images/vibrant-communities.jpg" alt="Communities" />
+            <div class="gallery__overlay">
+              <h3>Vibrant Communities</h3>
+              <p>Find your tribe</p>
+            </div>
+          </div>
+          <div class="gallery__item gallery__item--wide animate-on-scroll">
+            <img src="./images/insightful-analytics.jpg" alt="Analytics" />
+            <div class="gallery__overlay">
+              <h3>Insightful Analytics</h3>
+              <p>Understand your connections</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-label">What Our Users Say</span>
+          <h2 class="section-title">Loved by Early Adopters</h2>
+          <p class="section-description">
+            Real feedback from real people who tested Pure Social during our
+            beta phase.
+          </p>
+        </div>
+
+        <div class="reviews__grid">
+          <article class="review-card animate-on-scroll">
+            <div class="review-card__header">
+              <div class="review-card__info">
+                <h3 class="review-card__name">Sarah Chen</h3>
+                <p class="review-card__role">Beta Tester • Designer</p>
+              </div>
+            </div>
+            <div class="review-card__rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <p class="review-card__text">
+              "Finally, a social network that doesn't make me feel anxious! Pure
+              Social has completely changed how I interact online. The ad-free
+              experience is refreshing."
+            </p>
+          </article>
+
+          <article class="review-card animate-on-scroll">
+            <div class="review-card__header">
+              <div class="review-card__info">
+                <h3 class="review-card__name">Marcus Johnson</h3>
+                <p class="review-card__role">Beta Tester • Developer</p>
+              </div>
+            </div>
+            <div class="review-card__rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <p class="review-card__text">
+              "The privacy features are incredible. I can finally share without
+              worrying about my data being sold. This is what social media
+              should have been from the start."
+            </p>
+          </article>
+
+          <article class="review-card animate-on-scroll">
+            <div class="review-card__header">
+              <div class="review-card__info">
+                <h3 class="review-card__name">Emma Rodriguez</h3>
+                <p class="review-card__role">Beta Tester • Content Creator</p>
+              </div>
+            </div>
+            <div class="review-card__rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <p class="review-card__text">
+              "I've made more genuine connections in 2 months on Pure Social
+              than in years on other platforms. The community here is supportive
+              and real."
+            </p>
+          </article>
+
+          <article class="review-card animate-on-scroll">
+            <div class="review-card__header">
+              <div class="review-card__info">
+                <h3 class="review-card__name">David Park</h3>
+                <p class="review-card__role">Beta Tester • Entrepreneur</p>
+              </div>
+            </div>
+            <div class="review-card__rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <p class="review-card__text">
+              "The algorithm actually shows me content I care about. No more
+              endless scrolling through irrelevant posts. Pure Social respects
+              my time."
+            </p>
+          </article>
+
+          <article class="review-card animate-on-scroll">
+            <div class="review-card__header">
+              <div class="review-card__info">
+                <h3 class="review-card__name">Aisha Patel</h3>
+                <p class="review-card__role">Beta Tester • Student</p>
+              </div>
+            </div>
+            <div class="review-card__rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <p class="review-card__text">
+              "As someone who struggled with social media addiction, the
+              wellbeing features have been life-changing. I feel in control
+              again."
+            </p>
+          </article>
+
+          <article class="review-card animate-on-scroll">
+            <div class="review-card__header">
+              <img
+                src="/placeholder.svg?height=80&width=80"
+                alt="James Wilson"
+                class="review-card__avatar"
+              />
+              <div class="review-card__info">
+                <h3 class="review-card__name">James Wilson</h3>
+                <p class="review-card__role">Beta Tester • Photographer</p>
+              </div>
+            </div>
+            <div class="review-card__rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <p class="review-card__text">
+              "The interest groups feature helped me find an amazing photography
+              community. These are real connections with people who share my
+              passion."
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="cta">
+      <div class="container">
+        <div class="cta__content animate-on-scroll">
+          <h2 class="cta__title">
+            Ready to Experience Social Media Differently?
+          </h2>
+          <p class="cta__description">
+            Join thousands of people who have already discovered a better way to
+            connect online.
+          </p>
+          <div class="cta__buttons">
+            <button class="btn btn--primary btn--large">
+              Start Your Journey
+            </button>
+            <button class="btn btn--secondary btn--large">Learn More</button>
+          </div>
+          <p class="cta__note">Free forever. No credit card required.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__section">
+            <h3 class="footer__logo">Pure Social</h3>
+            <p class="footer__description">
+              Connecting people authentically, one genuine interaction at a
+              time.
+            </p>
+            <div class="footer__social">
+              <a href="#" class="footer__social-link" aria-label="Twitter">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+                  ></path>
+                </svg>
+              </a>
+              <a href="#" class="footer__social-link" aria-label="Instagram">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path
+                    d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                  ></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </a>
+              <a href="#" class="footer__social-link" aria-label="LinkedIn">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                  ></path>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer__section">
+            <h4 class="footer__title">Product</h4>
+            <ul class="footer__links">
+              <li><a href="#features">Features</a></li>
+              <li><a href="#reviews">Reviews</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__section">
+            <h4 class="footer__title">Company</h4>
+            <ul class="footer__links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Press Kit</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__section">
+            <h4 class="footer__title">Legal</h4>
+            <ul class="footer__links">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+              <li><a href="#">GDPR</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p>&copy; 2025 Pure Social. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
